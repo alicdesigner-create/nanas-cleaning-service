@@ -25,7 +25,7 @@ export default function Hero() {
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-sky">
             Greeley, Colorado &middot; Northern Colorado
           </p>
-          <h1 className="font-display text-4xl leading-tight text-white sm:text-5xl md:text-6xl">
+          <h1 className="font-sans text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl">
             {company.tagline}
           </h1>
           <p className="mt-6 text-base leading-relaxed text-white/85 sm:text-lg">
