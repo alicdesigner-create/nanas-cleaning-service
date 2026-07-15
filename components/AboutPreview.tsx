@@ -24,7 +24,7 @@ export default function AboutPreview() {
           <MotionSection delay={0.1}>
             <SectionHeading
               eyebrow="About Nana's Cleaning Service"
-              title={`${company.yearsInBusiness} years of trusted cleaning in Greeley, Colorado`}
+              title={`${company.yearsInBusiness} years of trusted cleaning in Colorado`}
               align="left"
             />
             <p className="mt-6 text-base leading-relaxed text-gray-dark">
