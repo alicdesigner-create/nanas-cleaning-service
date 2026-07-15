@@ -19,7 +19,7 @@ export default function ServiceCard({ service, href }: ServiceCardProps) {
       <div className="relative h-44 w-full overflow-hidden">
         <Image
           src={service.image}
-          alt={`${service.title} in Greeley, Colorado`}
+          alt={`${service.title} in Colorado`}
           fill
           sizes="(min-width: 1024px) 20vw, (min-width: 640px) 45vw, 90vw"
           className="object-cover transition-transform duration-500 group-hover:scale-105"

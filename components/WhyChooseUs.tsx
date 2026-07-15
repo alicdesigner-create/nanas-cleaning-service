@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
           <div>
             <SectionHeading
               eyebrow="Why Choose Us"
-              title="The trusted name in Greeley cleaning services"
+              title="The trusted name in Colorado cleaning services"
               align="left"
             />
             <div className="mt-10 grid gap-6 sm:grid-cols-3 lg:grid-cols-1">

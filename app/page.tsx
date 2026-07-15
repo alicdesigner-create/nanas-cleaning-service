@@ -9,7 +9,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 
 export const metadata: Metadata = {
-  title: "Cleaning Services in Greeley & Across Colorado",
+  title: "Cleaning Services Across Colorado",
   description:
     "Professional commercial and residential cleaning, deep cleaning, high dusting, pressure washing, day porter services, painting, graffiti removal, and construction cleaning across the Front Range — from Denver to Greeley. Reliable, eco-friendly, locally owned.",
 };

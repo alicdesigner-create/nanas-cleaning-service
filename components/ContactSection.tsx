@@ -17,7 +17,7 @@ export default function ContactSection({ showHeading = true }: ContactSectionPro
           <SectionHeading
             eyebrow="Get In Touch"
             title="Request your free quote today"
-            subtitle="Reach out to our Greeley team and we'll get back to you promptly with a customized cleaning plan."
+            subtitle="Reach out to our Colorado team and we'll get back to you promptly with a customized cleaning plan."
             className="mb-14"
           />
         )}

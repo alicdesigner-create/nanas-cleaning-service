@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src={company.heroImage}
-          alt="Bright, professionally cleaned modern home interior in Greeley, Colorado"
+          alt="Bright, professionally cleaned modern home interior in Colorado"
           fill
           priority
           sizes="100vw"

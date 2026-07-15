@@ -43,7 +43,7 @@ export default function ServicesPage() {
                     <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-xl shadow-navy/10">
                       <Image
                         src={service.image}
-                        alt={`${service.title} in Greeley, Colorado`}
+                        alt={`${service.title} in Colorado`}
                         fill
                         sizes="(min-width: 1024px) 45vw, 90vw"
                         className="object-cover"

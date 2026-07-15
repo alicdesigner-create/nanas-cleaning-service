@@ -32,7 +32,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-xl shadow-navy/10">
                 <Image
                   src={company.aboutImage}
-                  alt="Nana's Cleaning Service team serving Greeley, Colorado"
+                  alt="Nana's Cleaning Service team serving Colorado"
                   fill
                   sizes="(min-width: 1024px) 45vw, 90vw"
                   className="object-cover"

@@ -14,13 +14,13 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${company.domain}`),
   title: {
-    default: `${company.name} | Cleaning Services in Greeley & Across Colorado`,
+    default: `${company.name} | Cleaning Services Across Colorado`,
     template: `%s | ${company.name}`,
   },
   description:
     "Nana's Cleaning Service provides professional commercial and residential cleaning, deep cleaning, high dusting, pressure washing, day porter services, painting, graffiti removal, and construction cleaning across the Front Range, from Denver to Greeley.",
   keywords: [
-    "Cleaning Services in Greeley, Colorado",
+    "Cleaning Services in Colorado",
     "Commercial & Residential Cleaning Colorado",
     "Deep Cleaning Colorado",
     "High Dusting Colorado",
