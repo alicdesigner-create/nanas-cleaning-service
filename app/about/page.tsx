@@ -42,7 +42,8 @@ export default function AboutPage() {
             <MotionSection delay={0.1}>
               <SectionHeading
                 eyebrow="Our Story"
-                title={`Founded by ${company.owner}`}
+                title={company.owner}
+                subtitle="Founder"
                 align="left"
               />
               <div className="mt-6 space-y-4 text-base leading-relaxed text-gray-dark">
