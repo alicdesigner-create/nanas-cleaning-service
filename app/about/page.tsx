@@ -42,19 +42,21 @@ export default function AboutPage() {
             <MotionSection delay={0.1}>
               <SectionHeading
                 eyebrow="Our Story"
-                title={company.owner}
-                subtitle="Founder"
+                title="Nana's Cleaning Service Story"
+                subtitle="Five years of hard work, hands-on care, and steady growth — from a single cleaning visit to a trusted name across Colorado."
                 align="left"
               />
               <div className="mt-6 space-y-4 text-base leading-relaxed text-gray-dark">
                 <p>
-                  {company.owner} started {company.name} with a simple goal: bring
-                  reliable, professional cleaning services to communities across the
-                  Front Range, from the Denver Metro Area up through Greeley and Fort
-                  Collins. Five years later, that same commitment drives everything we
-                  do — from Commercial &amp; Residential Cleaning businesses and
-                  families count on, to specialized services like Pressure Washing and
-                  Construction Cleaning.
+                  What began with a simple goal — bringing reliable, professional
+                  cleaning services to communities across the Front Range — has grown
+                  into a company trusted by offices, schools, government buildings,
+                  construction companies, and homes, from the Denver Metro Area up
+                  through Greeley and Fort Collins. Five years later, that same
+                  commitment drives everything we do — from Commercial &amp;
+                  Residential Cleaning businesses and families count on, to
+                  specialized services like Pressure Washing and Construction
+                  Cleaning.
                 </p>
                 <p>
                   Today, our services have grown to include Deep Cleaning, High
