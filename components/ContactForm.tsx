@@ -31,7 +31,7 @@ export default function ContactForm() {
         className="flex flex-col items-center justify-center gap-3 rounded-3xl bg-white p-10 text-center shadow-sm shadow-navy/5 ring-1 ring-navy/5"
       >
         <CheckCircle2 className="h-10 w-10 text-leaf" aria-hidden="true" />
-        <p className="font-display text-xl text-navy">Thank you!</p>
+        <p className="font-sans text-xl font-bold tracking-tight text-navy">Thank you!</p>
         <p className="text-sm text-gray-dark">
           Your email app should now be open with your request pre-filled. We&apos;ll get
           back to you shortly.

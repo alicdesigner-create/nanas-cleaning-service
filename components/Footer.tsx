@@ -50,9 +50,9 @@ export default function Footer() {
               />
             </div>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/70">
-              Professional residential and commercial cleaning, deep cleaning, carpet
-              cleaning, and interior painting — proudly serving Greeley and Northern
-              Colorado for {company.yearsInBusiness} years.
+              Commercial &amp; residential cleaning, deep cleaning, pressure washing,
+              painting, and more — proudly serving the Front Range from Denver to
+              Greeley for {company.yearsInBusiness} years.
             </p>
             <div className="mt-6 flex gap-3">
               {socialLinks.map((social) => {
@@ -116,10 +116,13 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-sm text-white/60 sm:flex-row">
-          <p>
-            &copy; {new Date().getFullYear()} {company.name}. All rights reserved.
-          </p>
-          <p>Serving Greeley, Colorado &amp; Northern Colorado</p>
+          <div>
+            <p>
+              &copy; {new Date().getFullYear()} {company.name}. All rights reserved.
+            </p>
+            <p className="mt-1">Designed and developed by tesographics.com</p>
+          </div>
+          <p>Serving the Front Range, Denver to Greeley</p>
         </div>
       </div>
     </footer>

@@ -7,7 +7,7 @@ import ContactSection from "@/components/ContactSection";
 export const metadata: Metadata = {
   title: "Gallery",
   description:
-    "See before-and-after results from Nana's Cleaning Service — Residential Cleaning, Commercial Cleaning, Deep Cleaning, and Carpet Cleaning in Greeley, Colorado.",
+    "See before-and-after results from Nana's Cleaning Service — Commercial & Residential Cleaning, Deep Cleaning, and more across the Front Range, from Denver to Greeley.",
 };
 
 export default function GalleryPage() {

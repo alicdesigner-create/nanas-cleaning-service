@@ -8,7 +8,7 @@ import MotionSection from "@/components/MotionSection";
 export const metadata: Metadata = {
   title: "Cleaning Services",
   description:
-    "Explore Nana's Cleaning Service offerings in Greeley, Colorado: Residential Cleaning, Commercial Cleaning, Deep Cleaning, Carpet Cleaning, and Interior Painting.",
+    "Explore Nana's Cleaning Service offerings across the Front Range: Commercial & Residential Cleaning, Deep Cleaning, High Dusting, Pressure Washing, Day Porter Services, Painting Services, Graffiti Removal, and Construction Cleaning.",
 };
 
 export default function ServicesPage() {
@@ -16,8 +16,8 @@ export default function ServicesPage() {
     <>
       <PageHero
         eyebrow="Our Services"
-        title="Complete Cleaning Solutions for Northern Colorado"
-        subtitle="From everyday upkeep to full-scale transformations, every Nana's Cleaning Service visit is built on reliability, professionalism, and eco-friendly products."
+        title="Complete Cleaning Solutions Across the Front Range"
+        subtitle="From everyday upkeep to full-scale transformations, every Nana's Cleaning Service visit is built on reliability, professionalism, and eco-friendly products — serving Denver to Greeley and everywhere in between."
       />
 
       <div className="divide-y divide-navy/5">
@@ -55,7 +55,7 @@ export default function ServicesPage() {
                     <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white text-blue shadow-sm shadow-navy/5 ring-1 ring-navy/5">
                       <Icon className="h-6 w-6" aria-hidden="true" />
                     </div>
-                    <h2 className="mt-5 font-display text-3xl text-navy sm:text-4xl">
+                    <h2 className="mt-5 font-sans text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
                       {service.title}
                     </h2>
                     <p className="mt-5 text-base leading-relaxed text-gray-dark">

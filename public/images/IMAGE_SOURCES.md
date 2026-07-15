@@ -12,7 +12,12 @@ Replace any of these with real company photography whenever it becomes available
 | service-commercial-cleaning.jpg | https://www.pexels.com/photo/modern-office-interior-8606292/ | Services grid — Commercial Cleaning |
 | service-deep-cleaning.jpg | https://www.pexels.com/photo/person-wearing-blue-gloves-cleaning-4021256/ | Services grid — Deep Cleaning |
 | service-carpet-cleaning.jpg | https://www.pexels.com/photo/a-person-vacuuming-a-carpet-9462139/ | Services grid — Carpet Cleaning |
-| service-interior-painting.jpg | https://www.pexels.com/photo/man-painting-the-wall-7218579/ | Services grid — Interior Painting |
+| service-interior-painting.jpg | https://www.pexels.com/photo/man-painting-the-wall-7218579/ | Services grid — Painting Services |
+| service-high-dusting.jpg | https://www.pexels.com/photo/interior-of-a-warehouse-12706241/ | Services grid — High Dusting |
+| service-pressure-washing.jpg | https://www.pexels.com/photo/men-cleaning-the-street-10133570/ | Services grid — Pressure Washing |
+| service-day-porter.jpg | https://www.pexels.com/photo/janitorial-staff-with-cleaning-equipment-indoors-34516670/ | Services grid — Day Porter Services |
+| service-graffiti-removal.jpg | https://www.pexels.com/photo/a-man-cleaning-the-streets-and-standing-on-the-sidewalk-in-front-of-a-graffiti-wall-19482473/ | Services grid — Graffiti Removal |
+| service-construction-cleaning.jpg | https://www.pexels.com/photo/vacuum-cleaner-placed-in-room-5691510/ | Services grid — Construction Cleaning |
 | why-choose-eco-products.jpg | https://www.pexels.com/photo/white-and-green-spray-bottle-12997255/ | Why Choose Us — eco-friendly products |
 | gallery-1-before-living-room.jpg | https://www.pexels.com/photo/6555378/ (cluttered cozy room) | Gallery — Living Room, before |
 | gallery-1-after-living-room.jpg | https://www.pexels.com/photo/interior-design-of-living-room-20390760/ | Gallery — Living Room, after |

@@ -26,7 +26,7 @@ export default function WhyChooseUs() {
               title="The trusted name in Greeley cleaning services"
               align="left"
             />
-            <div className="mt-10 grid gap-6 sm:grid-cols-2">
+            <div className="mt-10 grid gap-6 sm:grid-cols-3 lg:grid-cols-1">
               {whyChooseUs.map((item, index) => {
                 const Icon = item.icon;
                 return (

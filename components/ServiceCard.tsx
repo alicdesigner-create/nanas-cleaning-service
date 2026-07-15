@@ -30,7 +30,7 @@ export default function ServiceCard({ service, href }: ServiceCardProps) {
         </div>
       </div>
       <div className="flex flex-1 flex-col p-6">
-        <h3 className="font-display text-xl text-navy">{service.title}</h3>
+        <h3 className="font-sans text-xl font-bold tracking-tight text-navy">{service.title}</h3>
         <p className="mt-2 flex-1 text-sm leading-relaxed text-gray-dark">
           {service.shortDescription}
         </p>

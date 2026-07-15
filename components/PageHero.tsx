@@ -11,7 +11,7 @@ export default function PageHero({ eyebrow, title, subtitle }: PageHeroProps) {
         <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-sky">
           {eyebrow}
         </p>
-        <h1 className="font-display text-4xl leading-tight text-white sm:text-5xl">
+        <h1 className="font-sans text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">
           {title}
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg">

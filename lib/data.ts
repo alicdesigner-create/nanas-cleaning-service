@@ -1,18 +1,23 @@
 import {
   Sparkles,
   Building2,
-  Home as HomeIcon,
   Wind,
+  Droplets,
+  UserCheck,
   Paintbrush,
+  SprayCan,
+  HardHat,
   ShieldCheck,
+  Mountain,
   BadgeCheck,
   Clock,
   Leaf,
-  Award,
   MapPin,
   Phone,
   Mail,
   Target,
+  Zap,
+  Rocket,
   HeartHandshake,
   type LucideIcon,
 } from "lucide-react";
@@ -23,7 +28,8 @@ export const company = {
   tagline: "Professional Cleaning Services You Can Trust",
   city: "Greeley",
   state: "Colorado",
-  region: "Northern Colorado",
+  region: "Colorado, including the Denver Metro Area, Colorado Springs, and Fort Collins",
+  serviceAreas: ["Greeley", "Fort Collins", "Denver Metro Area", "Colorado Springs"],
   yearsInBusiness: 5,
   domain: "nanasclean.com",
   addressLine: "Greeley, Colorado",
@@ -68,25 +74,14 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    slug: "residential-cleaning",
-    title: "Residential Cleaning",
+    slug: "commercial-residential-cleaning",
+    title: "Commercial & Residential Cleaning",
     shortDescription:
-      "Reliable, detail-oriented home cleaning that keeps every room fresh and welcoming.",
+      "Reliable, professional cleaning for offices, facilities, and homes across the Front Range.",
     longDescription:
-      "Our Residential Cleaning in Greeley is built around your household's routine — weekly, bi-weekly, or one-time visits. We dust, sanitize, vacuum, and polish every room with the same care we'd give our own homes, using eco-friendly products that are safe for kids and pets.",
-    icon: HomeIcon,
-    keyword: "Residential Cleaning Greeley",
-    image: "/images/service-residential-cleaning.jpg",
-  },
-  {
-    slug: "commercial-cleaning",
-    title: "Commercial Cleaning",
-    shortDescription:
-      "Consistent, professional office and facility cleaning that keeps your business guest-ready.",
-    longDescription:
-      "From small offices to multi-suite facilities, our Commercial Cleaning Greeley programs are scheduled around your business hours so operations never skip a beat. Lobbies, restrooms, breakrooms, and workstations are cleaned to a consistent, professional standard every visit.",
+      "Whether it's a multi-suite commercial property or a family home, our Commercial & Residential Cleaning combines consistent scheduling with meticulous attention to detail. We work around your hours — business or personal — so lobbies, workstations, kitchens, and bedrooms are always guest-ready.",
     icon: Building2,
-    keyword: "Commercial Cleaning Greeley",
+    keyword: "Commercial & Residential Cleaning Colorado",
     image: "/images/service-commercial-cleaning.jpg",
   },
   {
@@ -95,32 +90,76 @@ export const services: Service[] = [
     shortDescription:
       "A thorough, top-to-bottom reset for move-ins, move-outs, or seasonal refreshes.",
     longDescription:
-      "Our Deep Cleaning Greeley service goes beyond routine upkeep — baseboards, vents, appliance interiors, grout, and every overlooked corner. It's the perfect choice before a big event, after a renovation, or as a seasonal reset for your home or business.",
+      "Our Deep Cleaning service goes beyond routine upkeep — baseboards, vents, appliance interiors, grout, and every overlooked corner. It's the perfect choice before a big event, after a renovation, or as a seasonal reset for your home or business.",
     icon: Sparkles,
-    keyword: "Deep Cleaning Greeley",
+    keyword: "Deep Cleaning Colorado",
     image: "/images/service-deep-cleaning.jpg",
   },
   {
-    slug: "carpet-cleaning",
-    title: "Carpet Cleaning",
+    slug: "high-dusting",
+    title: "High Dusting",
     shortDescription:
-      "Deep-extraction carpet and upholstery cleaning that lifts stains and refreshes fibers.",
+      "Specialized high-reach dusting for rafters, vents, beams, and elevated surfaces standard cleaning can't touch.",
     longDescription:
-      "Carpet Cleaning Greeley homeowners and businesses trust to remove ground-in dirt, allergens, and stubborn stains. We use professional-grade equipment and eco-friendly solutions to restore carpets without leaving behind harsh chemical residue.",
+      "Our High Dusting service targets the areas routine cleaning misses — ceiling vents, light fixtures, exposed beams, rafters, and high shelving. Using extension tools and safe access equipment, we clear dust and allergens from warehouses, gyms, offices, and industrial spaces to keep air quality and appearance up to standard.",
     icon: Wind,
-    keyword: "Carpet Cleaning Greeley",
-    image: "/images/service-carpet-cleaning.jpg",
+    keyword: "High Dusting Colorado",
+    image: "/images/service-high-dusting.jpg",
   },
   {
-    slug: "interior-painting",
-    title: "Interior Painting",
+    slug: "pressure-washing",
+    title: "Pressure Washing",
     shortDescription:
-      "Clean, precise interior painting that gives your space a polished, updated finish.",
+      "High-powered exterior washing that restores sidewalks, facades, and parking areas.",
     longDescription:
-      "Refresh any room with our Interior Painting service — careful prep, crisp lines, and a tidy job site from start to finish. Pair it with a Deep Cleaning for a complete space refresh.",
+      "From building exteriors to sidewalks, dumpster pads, and parking structures, our Pressure Washing service lifts dirt, grime, gum, and stains that standard cleaning can't reach. It's a fast, effective way to refresh curb appeal and maintain a safe, professional exterior.",
+    icon: Droplets,
+    keyword: "Pressure Washing Colorado",
+    image: "/images/service-pressure-washing.jpg",
+  },
+  {
+    slug: "day-porter-services",
+    title: "Day Porter Services",
+    shortDescription:
+      "On-site daytime staff keeping high-traffic spaces clean, stocked, and presentable all day long.",
+    longDescription:
+      "Our Day Porter Services place a dedicated team member on-site during business hours to handle restroom checks, spill response, lobby upkeep, and general tidiness in real time — ideal for busy offices, retail spaces, and facilities that can't wait for an after-hours visit.",
+    icon: UserCheck,
+    keyword: "Day Porter Services Colorado",
+    image: "/images/service-day-porter.jpg",
+  },
+  {
+    slug: "painting-services",
+    title: "Painting Services",
+    shortDescription:
+      "Clean, precise interior and exterior painting that gives any space a polished, updated finish.",
+    longDescription:
+      "Refresh any space with our Painting Services — careful prep, crisp lines, and a tidy job site from start to finish. Pair it with a Deep Cleaning or Construction Cleaning for a complete space refresh.",
     icon: Paintbrush,
-    keyword: "Interior Painting Greeley",
+    keyword: "Painting Services Colorado",
     image: "/images/service-interior-painting.jpg",
+  },
+  {
+    slug: "graffiti-removal",
+    title: "Graffiti Removal",
+    shortDescription:
+      "Fast, thorough graffiti removal that protects your property's appearance and reputation.",
+    longDescription:
+      "Graffiti left unaddressed invites more of the same. Our Graffiti Removal service responds quickly to clear tagging from walls, doors, and exterior surfaces, restoring a clean, professional look and helping deter repeat vandalism.",
+    icon: SprayCan,
+    keyword: "Graffiti Removal Colorado",
+    image: "/images/service-graffiti-removal.jpg",
+  },
+  {
+    slug: "construction-cleaning",
+    title: "Construction Cleaning",
+    shortDescription:
+      "Post-construction and renovation cleanup that gets a space ready for move-in or turnover.",
+    longDescription:
+      "From final-phase debris removal to detailed dust cleanup, our Construction Cleaning prepares newly built or renovated spaces for occupancy. We clear dust from every surface, vent, and fixture so the finished space is truly move-in ready.",
+    icon: HardHat,
+    keyword: "Construction Cleaning Colorado",
+    image: "/images/service-construction-cleaning.jpg",
   },
 ];
 
@@ -173,36 +212,71 @@ export type WhyChooseItem = {
 
 export const whyChooseUs: WhyChooseItem[] = [
   {
-    title: "Licensed",
-    description: "Fully licensed to operate throughout Northern Colorado.",
+    title: "Guaranteed Quality",
+    description:
+      "Every job is backed by our satisfaction guarantee — if it's not right, we make it right.",
     icon: BadgeCheck,
   },
   {
-    title: "Insured",
-    description: "Comprehensive coverage for total peace of mind on every job.",
+    title: "Sense of Urgency",
+    description:
+      "We respond quickly and get to work fast, because we know your space can't wait.",
+    icon: Zap,
+  },
+  {
+    title: "Express Services",
+    description:
+      "Rush and emergency cleaning available when you need a fast turnaround.",
+    icon: Rocket,
+  },
+];
+
+export type Founder = {
+  name: string;
+  title: string;
+  bio: string;
+};
+
+export const founder: Founder = {
+  name: "Isis Noriega",
+  title: "Founder",
+  bio: "Founder Isis Noriega built Nana's Cleaning Service out of a genuine passion for helping her community. Recognizing the need for cleaner, healthier environments free from contamination, she decided to start her own business and begin offering professional janitorial services — a mission that has driven Nana's Cleaning Service for over 5 years.",
+};
+
+export type Certification = {
+  label: string;
+  icon: LucideIcon;
+};
+
+export const certifications: Certification[] = [
+  {
+    label: "OSHA-Certified Safety Training — Construction Cleaning",
     icon: ShieldCheck,
   },
   {
-    title: "Reliable",
-    description: "On time, every time — your schedule is our priority.",
-    icon: Clock,
-  },
-  {
-    title: "Eco-Friendly Products",
-    description: "Safe, sustainable cleaning products for your family, pets, and team.",
-    icon: Leaf,
-  },
-  {
-    title: "Experienced",
-    description: "5 years of trusted service across Greeley and Northern Colorado.",
-    icon: Award,
-  },
-  {
-    title: "Locally Owned",
-    description: "A Greeley-based business that knows and cares about this community.",
-    icon: MapPin,
+    label: "Height & Fall Safety Certified",
+    icon: Mountain,
   },
 ];
+
+export const serviceAreaCities = [
+  "Denver",
+  "Westminster",
+  "Lakewood",
+  "Louisville",
+  "Boulder",
+  "Longmont",
+  "Loveland",
+  "Fort Collins",
+  "Greeley",
+  "Windsor",
+  "Frederick",
+  "Broomfield",
+  "Dacono",
+];
+
+export const industriesServed =
+  "We proudly serve offices, schools, government buildings, and construction companies across the Front Range — while also offering residential cleaning wherever it's needed.";
 
 export type Testimonial = {
   name: string;
@@ -221,24 +295,24 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "David R.",
-    location: "Windsor, CO",
+    location: "Fort Collins, CO",
     rating: 5,
     quote:
       "We switched our office cleaning over to Nana's and the difference was immediate. Professional, consistent, and the team genuinely cares about doing a good job.",
   },
   {
     name: "Priya K.",
-    location: "Evans, CO",
+    location: "Denver, CO",
     rating: 5,
     quote:
-      "The deep clean before we moved in was incredible — every vent, baseboard, and cabinet was spotless. Worth every penny.",
+      "The deep clean before we moved in was incredible — every vent, baseboard, and cabinet was spotless. Worth every penny. Glad they cover the whole Denver Metro Area.",
   },
   {
     name: "Marcus T.",
-    location: "Greeley, CO",
+    location: "Colorado Springs, CO",
     rating: 5,
     quote:
-      "Booked them for carpet cleaning and interior painting in the same month. Both jobs were done with real attention to detail. Highly recommend Nana's.",
+      "Booked them for pressure washing and painting services in the same month. Both jobs were done with real attention to detail. Highly recommend Nana's.",
   },
 ];
 

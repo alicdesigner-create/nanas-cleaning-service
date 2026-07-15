@@ -15,7 +15,7 @@ export default function TestimonialsSection({
         {showHeading && (
           <SectionHeading
             eyebrow="Testimonials"
-            title="Trusted by homes and businesses across Greeley"
+            title="Trusted by homes and businesses across Colorado"
             subtitle="Don't just take our word for it — here's what our customers have to say."
             className="mb-14"
           />

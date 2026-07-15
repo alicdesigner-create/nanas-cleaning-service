@@ -7,7 +7,7 @@ import ContactSection from "@/components/ContactSection";
 export const metadata: Metadata = {
   title: "Testimonials",
   description:
-    "Read what customers across Greeley, Colorado and Northern Colorado have to say about Nana's Cleaning Service.",
+    "Read what customers across Greeley, Denver, Colorado Springs, and Fort Collins have to say about Nana's Cleaning Service.",
 };
 
 export default function TestimonialsPage() {
@@ -15,7 +15,7 @@ export default function TestimonialsPage() {
     <>
       <PageHero
         eyebrow="Testimonials"
-        title="Trusted by Homes & Businesses Across Greeley"
+        title="Trusted by Homes & Businesses Across Colorado"
         subtitle="Don't just take our word for it — here's what our customers have to say about working with Nana's Cleaning Service."
       />
 

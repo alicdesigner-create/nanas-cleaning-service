@@ -18,12 +18,12 @@ export default function ServicesGrid({
         {showHeading && (
           <SectionHeading
             eyebrow="Our Services"
-            title="Complete cleaning solutions for Greeley homes & businesses"
+            title="Complete cleaning solutions across Colorado"
             subtitle="From routine upkeep to full-scale transformations, our services are built around reliability, professionalism, and exceptional attention to detail."
             className="mb-14"
           />
         )}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service, index) => (
             <MotionSection key={service.slug} delay={index * 0.06}>
               <ServiceCard

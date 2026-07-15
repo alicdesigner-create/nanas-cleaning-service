@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Manrope, DM_Serif_Display } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -11,28 +11,26 @@ const manrope = Manrope({
   weight: ["400", "500", "600", "700", "800"],
 });
 
-const dmSerifDisplay = DM_Serif_Display({
-  variable: "--font-dm-serif",
-  subsets: ["latin"],
-  weight: "400",
-  style: ["normal", "italic"],
-});
-
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${company.domain}`),
   title: {
-    default: `${company.name} | Cleaning Services in Greeley, Colorado`,
+    default: `${company.name} | Cleaning Services in Greeley & Across Colorado`,
     template: `%s | ${company.name}`,
   },
   description:
-    "Nana's Cleaning Service provides professional residential cleaning, commercial cleaning, deep cleaning, carpet cleaning, and interior painting in Greeley, Colorado and Northern Colorado.",
+    "Nana's Cleaning Service provides professional commercial and residential cleaning, deep cleaning, high dusting, pressure washing, day porter services, painting, graffiti removal, and construction cleaning across the Front Range, from Denver to Greeley.",
   keywords: [
     "Cleaning Services in Greeley, Colorado",
-    "Commercial Cleaning Greeley",
-    "Residential Cleaning Greeley",
-    "Deep Cleaning Greeley",
-    "Carpet Cleaning Greeley",
-    "Interior Painting Greeley",
+    "Commercial & Residential Cleaning Colorado",
+    "Deep Cleaning Colorado",
+    "High Dusting Colorado",
+    "Pressure Washing Colorado",
+    "Day Porter Services Colorado",
+    "Painting Services Colorado",
+    "Graffiti Removal Colorado",
+    "Construction Cleaning Colorado",
+    "Cleaning Services Denver",
+    "Cleaning Services Fort Collins",
   ],
 };
 
@@ -44,7 +42,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${manrope.variable} ${dmSerifDisplay.variable} h-full antialiased`}
+      className={`${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bg-light text-navy font-sans">
         <Header />

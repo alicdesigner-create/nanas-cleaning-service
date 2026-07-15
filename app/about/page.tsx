@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { company, contacts, brandPillars } from "@/lib/data";
+import { company, contacts, brandPillars, industriesServed } from "@/lib/data";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import FounderSection from "@/components/FounderSection";
+import Certifications from "@/components/Certifications";
 import ContactSection from "@/components/ContactSection";
 import Button from "@/components/Button";
 import MotionSection from "@/components/MotionSection";
@@ -11,7 +13,7 @@ import MotionSection from "@/components/MotionSection";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Nana's Cleaning Service, a locally owned cleaning company led by Isis Noriega, proudly serving Greeley, Colorado and Northern Colorado for 5 years.",
+    "Learn about Nana's Cleaning Service, a locally owned cleaning company founded by Isis Noriega, proudly serving offices, schools, government buildings, construction companies, and homes across the Front Range for 5 years.",
 };
 
 export default function AboutPage() {
@@ -19,8 +21,8 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About Us"
-        title={`${company.yearsInBusiness} Years of Trusted Cleaning in Greeley, Colorado`}
-        subtitle="Nana's Cleaning Service is a locally owned company built on reliability, professionalism, and genuine care for every space we clean."
+        title={`${company.yearsInBusiness} Years of Trusted Cleaning Across Colorado`}
+        subtitle="Nana's Cleaning Service is a locally owned company built on reliability, professionalism, and genuine care for every space we clean — from Greeley to Denver, Colorado Springs, and Fort Collins."
       />
 
       <section className="bg-white py-20 sm:py-28">
@@ -46,20 +48,20 @@ export default function AboutPage() {
               <div className="mt-6 space-y-4 text-base leading-relaxed text-gray-dark">
                 <p>
                   {company.owner} started {company.name} with a simple goal: bring
-                  reliable, professional cleaning services to Greeley and the
-                  surrounding {company.region} communities. Five years later, that
-                  same commitment drives everything we do — from Residential Cleaning
-                  Greeley families count on, to Commercial Cleaning Greeley
-                  businesses trust to keep their spaces guest-ready.
+                  reliable, professional cleaning services to communities across the
+                  Front Range, from the Denver Metro Area up through Greeley and Fort
+                  Collins. Five years later, that same commitment drives everything we
+                  do — from Commercial &amp; Residential Cleaning businesses and
+                  families count on, to specialized services like Pressure Washing and
+                  Construction Cleaning.
                 </p>
                 <p>
-                  Today, our services have grown to include Deep Cleaning Greeley
-                  homeowners rely on for move-ins and seasonal resets, Carpet
-                  Cleaning Greeley residents trust for a fresher, healthier home, and
-                  Interior Painting to give any room a polished finish. Every job,
-                  big or small, gets the same attention to detail and eco-friendly
-                  approach.
+                  Today, our services have grown to include Deep Cleaning, High
+                  Dusting, Day Porter Services, Painting Services, and Graffiti
+                  Removal — with the same attention to detail and eco-friendly
+                  approach on every job, big or small.
                 </p>
+                <p className="font-medium text-navy">{industriesServed}</p>
               </div>
               <div className="mt-8">
                 <Button href="/services" variant="primary">
@@ -70,6 +72,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <FounderSection />
+      <Certifications />
 
       <section className="bg-bg-light py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -104,7 +109,7 @@ export default function AboutPage() {
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="font-display text-2xl text-navy">
+          <p className="font-sans text-2xl font-bold tracking-tight text-navy">
             Questions? Reach out directly.
           </p>
           <p className="mt-3 text-base text-gray-dark">

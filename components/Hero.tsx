@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="relative mx-auto max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-sky">
-            Greeley, Colorado &middot; Northern Colorado
+            Greeley &middot; Fort Collins &middot; Denver &middot; Colorado Springs
           </p>
           <h1 className="font-sans text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl">
             {company.tagline}
