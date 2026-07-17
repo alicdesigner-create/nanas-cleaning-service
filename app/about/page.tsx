@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { company, contacts, brandPillars, industriesServed } from "@/lib/data";
 import PageHero from "@/components/PageHero";
+import Parallax from "@/components/Parallax";
 import SectionHeading from "@/components/SectionHeading";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import FounderSection from "@/components/FounderSection";
@@ -22,7 +23,8 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About Us"
         title={`${company.yearsInBusiness} Years of Trusted Cleaning Across Colorado`}
-        subtitle="Nana's Cleaning Service is a locally owned company built on reliability, professionalism, and genuine care for every space we clean — from Greeley to Denver, Colorado Springs, and Fort Collins."
+        subtitle="Nana's Cleaning Service is a locally owned company built on reliability, professionalism, and genuine care for every space we clean — from Greeley to Denver and Fort Collins."
+        backgroundImage="/images/about-hero-greeley.jpg"
       />
 
       <section className="bg-white py-20 sm:py-28">
@@ -30,13 +32,15 @@ export default function AboutPage() {
           <div className="grid items-center gap-14 lg:grid-cols-2">
             <MotionSection>
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-xl shadow-navy/10">
-                <Image
-                  src={company.aboutImage}
-                  alt="Nana's Cleaning Service team serving Colorado"
-                  fill
-                  sizes="(min-width: 1024px) 45vw, 90vw"
-                  className="object-cover"
-                />
+                <Parallax speed={0.08} className="absolute inset-[-10%]">
+                  <Image
+                    src={company.aboutImage}
+                    alt="Nana's Cleaning Service team serving Colorado"
+                    fill
+                    sizes="(min-width: 1024px) 45vw, 90vw"
+                    className="object-cover"
+                  />
+                </Parallax>
               </div>
             </MotionSection>
             <MotionSection delay={0.1}>

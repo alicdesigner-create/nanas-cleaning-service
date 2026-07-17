@@ -6,7 +6,10 @@ Replace any of these with real company photography whenever it becomes available
 
 | File | Pexels photo | Used for |
 |---|---|---|
-| hero-clean-home.jpg | https://www.pexels.com/photo/interior-of-modern-minimalist-studio-apartment-with-living-room-and-bedroom-7060814/ | Home hero background |
+| hero-clean-home.jpg | https://www.pexels.com/photo/interior-of-modern-minimalist-studio-apartment-with-living-room-and-bedroom-7060814/ | Home hero background (slideshow 1/3) |
+| hero-commercial-team.jpg | https://www.pexels.com/photo/group-of-people-cleaning-a-dining-room-6197108/ | Home hero background (slideshow 2/3) |
+| hero-commercial-vacuum.jpg | https://www.pexels.com/photo/6195122/ | Home hero background (slideshow 3/3) |
+| about-hero-greeley.jpg | Provided by client (Greeley wall photo) | About page hero banner background |
 | about-cleaning-team.jpg | https://www.pexels.com/photo/cleaners-in-orange-uniform-6195125/ | About preview / About page |
 | service-residential-cleaning.jpg | https://www.pexels.com/photo/modern-living-room-19899071/ | Services grid — Residential Cleaning |
 | service-commercial-cleaning.jpg | https://www.pexels.com/photo/modern-office-interior-8606292/ | Services grid — Commercial Cleaning |

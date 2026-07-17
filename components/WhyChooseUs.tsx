@@ -2,6 +2,7 @@ import Image from "next/image";
 import { whyChooseUs, whyChooseUsImage } from "@/lib/data";
 import SectionHeading from "@/components/SectionHeading";
 import MotionSection from "@/components/MotionSection";
+import Parallax from "@/components/Parallax";
 
 export default function WhyChooseUs() {
   return (
@@ -10,13 +11,15 @@ export default function WhyChooseUs() {
         <div className="grid items-center gap-14 lg:grid-cols-2">
           <MotionSection>
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-xl shadow-navy/10">
-              <Image
-                src={whyChooseUsImage}
-                alt="Eco-friendly cleaning products used by Nana's Cleaning Service"
-                fill
-                sizes="(min-width: 1024px) 45vw, 90vw"
-                className="object-cover"
-              />
+              <Parallax speed={0.08} className="absolute inset-[-10%]">
+                <Image
+                  src={whyChooseUsImage}
+                  alt="Eco-friendly cleaning products used by Nana's Cleaning Service"
+                  fill
+                  sizes="(min-width: 1024px) 45vw, 90vw"
+                  className="object-cover"
+                />
+              </Parallax>
             </div>
           </MotionSection>
 

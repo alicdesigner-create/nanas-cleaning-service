@@ -28,12 +28,16 @@ export const company = {
   tagline: "Professional Cleaning Services You Can Trust",
   city: "Greeley",
   state: "Colorado",
-  region: "Colorado, including the Denver Metro Area, Colorado Springs, and Fort Collins",
-  serviceAreas: ["Greeley", "Fort Collins", "Denver Metro Area", "Colorado Springs"],
+  region: "Colorado, including the Denver Metro Area and Fort Collins",
+  serviceAreas: ["Greeley", "Fort Collins", "Denver Metro Area"],
   yearsInBusiness: 5,
   domain: "nanasclean.com",
   addressLine: "Greeley, Colorado",
-  heroImage: "/images/hero-clean-home.jpg",
+  heroImages: [
+    "/images/hero-clean-home.jpg",
+    "/images/hero-commercial-team.jpg",
+    "/images/hero-commercial-vacuum.jpg",
+  ],
   aboutImage: "/images/about-cleaning-team.jpg",
 };
 
@@ -311,7 +315,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Marcus T.",
-    location: "Colorado Springs, CO",
+    location: "Longmont, CO",
     rating: 5,
     quote:
       "Booked them for pressure washing and painting services in the same month. Both jobs were done with real attention to detail. Highly recommend Nana's.",

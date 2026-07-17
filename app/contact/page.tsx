@@ -5,7 +5,7 @@ import ContactSection from "@/components/ContactSection";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact Nana's Cleaning Service in Greeley, the Denver Metro Area, Colorado Springs, or Fort Collins for a free quote on residential cleaning, commercial cleaning, deep cleaning, carpet cleaning, or interior painting.",
+    "Contact Nana's Cleaning Service in Greeley, the Denver Metro Area, or Fort Collins for a free quote on residential cleaning, commercial cleaning, deep cleaning, carpet cleaning, or interior painting.",
 };
 
 export default function ContactPage() {
