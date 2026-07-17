@@ -235,12 +235,14 @@ export type Founder = {
   name: string;
   title: string;
   bio: string;
+  image: string;
 };
 
 export const founder: Founder = {
   name: "Isis Noriega",
   title: "Founder",
   bio: "Founder Isis Noriega built Nana's Cleaning Service out of a genuine passion for helping her community. Recognizing the need for cleaner, healthier environments free from contamination, she decided to start her own business and begin offering professional janitorial services — a mission that has driven Nana's Cleaning Service for over 5 years.",
+  image: "/images/founder-isis-noriega.png",
 };
 
 export type Certification = {

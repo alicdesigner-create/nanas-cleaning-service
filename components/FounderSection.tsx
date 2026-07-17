@@ -1,4 +1,4 @@
-import { User } from "lucide-react";
+import Image from "next/image";
 import { founder } from "@/lib/data";
 import SectionHeading from "@/components/SectionHeading";
 import MotionSection from "@/components/MotionSection";
@@ -10,8 +10,14 @@ export default function FounderSection() {
         <SectionHeading eyebrow="Meet the Founder" title="The person behind the mission" className="mb-14" />
         <div className="grid items-center gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
           <MotionSection>
-            <div className="mx-auto flex h-40 w-40 items-center justify-center rounded-full bg-white text-blue shadow-sm shadow-navy/5 ring-1 ring-navy/10 lg:mx-0">
-              <User className="h-16 w-16" aria-hidden="true" />
+            <div className="relative mx-auto h-40 w-40 overflow-hidden rounded-full bg-white shadow-sm shadow-navy/5 ring-1 ring-navy/10 lg:mx-0">
+              <Image
+                src={founder.image}
+                alt={`${founder.name}, ${founder.title} of Nana's Cleaning Service`}
+                fill
+                sizes="160px"
+                className="object-cover"
+              />
             </div>
           </MotionSection>
           <MotionSection delay={0.1}>
